@@ -14,16 +14,4 @@ This web application provides a comprehensive database of board games, along wit
 - **Deployment**: AWS EC2
 - **Build Tool**: Maven
 
-## Key Features
 
-- Full-stack web application with a dynamic, user-friendly interface.
-- **Role-Based Access Control**:
-  - Non-members can view game lists and reviews.
-  - Registered users can add games and write reviews.
-  - Managers can edit or delete reviews in addition to user privileges.
-- Authentication and authorization using Spring Security, with login protection and varying permissions based on user roles.
-- CRUD functionality for managing data in the database, with a customized schema and initial data seeded from a `schema.sql` file.
-- Separation of concerns within the Spring MVC framework, dividing the project into clear view, controller, and database layers.
-- Integration of Thymeleaf fragments to streamline repetitive HTML elements like headers, footers, and navigation.
-- Deployed on AWS EC2 for easy online access and scalability.
-- Unit testing implemented using the JUnit framework.
